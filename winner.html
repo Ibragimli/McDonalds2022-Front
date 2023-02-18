@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>McWeb</title>
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-4 headerLogo">
+                <a class="navbar-brand" href="#">
+                    <div class="headerLogoImages">
+                        <div class="headerLogoImage">
+                            <div class="mcLogoBackground">
+                                <img class="mcLogo" src="./Images/Header/mc.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="headerLogoImage">
+                            <div class="mclineBackground">
+                                <img class="lineLogo" src="./Images/Header/DIVIDING_LINE.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="headerLogoImage">
+                            <!-- <div class="headerLogoImage"> -->
+                            <div class="fifaLogoBackground">
+                                <img class="fifaCupLogo" src="./Images/Header/fifa-cup.png" alt="" />
+                                <img class="fifaLogo" src="./Images/Header/fifa.png" alt="" />
+                                <img class="qatarLogo" src="./Images/Header/qatar2022.png" alt="" />
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-8 headerNav">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid justify-content-end p-0">
+                        <div class="nav-toggle-button">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+
+                        <div class="offcanvas offcanvas-end text-bg " tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close pe-1" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                                    <li class="nav-item">
+                                        <a class="nav-link " aria-current="page" href="./index.html">Ana səhifə</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="./tirajlar.html">Tirajlar</a>
+                                    </li>
+
+                                    <li class="nav-item visible">
+                                        <a class="nav-link backColor" aria-current="page" href="#">Qaliblər</a>
+                                    </li>
+
+                                    <li class="nav-item unvisible">
+                                        <a class="nav-link" aria-current="page" href="./questions.html">Tez-tez
+                                            verilən suallar</a>
+                                    </li>
+
+                                    <li class="nav-item visible">
+                                        <a class="nav-link lastA" aria-current="page"
+                                            href="./questions.html">Sual-Cavab</a>
+                                    </li>
+
+                                    <li class="nav-item unvisible">
+                                        <a class="nav-link lastA" aria-current="page"
+                                            href="./winner.html">Qaliblər</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link backColor" aria-current="page" href="#">© 2021 McDonald's
+                                            Bütün hüquqlar qorunur</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="winner">
+            <div class="row pagesInfo">
+                <div class="col-12 pageInfo">
+                    <a href="#">
+                        <p>Ana Səhifə</p>
+
+                    </a>
+                    <a href="#">
+                        <span>Qaliblər</span>
+
+                    </a>
+                </div>
+                <div class="col-12 pageTitle">
+                    <h1>QALİBLƏR</h1>
+                </div>
+            </div>
+
+            <div class="row winnerBox">
+                <div class="col-12 searchWinner">
+                    <form action="" method="post" class="row g-4">
+                        <div class="col-lg-7 searchCode   col-md-10">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Kupon kodu ilə axtarış">
+                                <button class="btn " type="submit" id="button-addon2">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 searchNumber  col-md-10">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Tiraj nömrəsi</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-12 tablesHeader">
+                    <div class="row tableContent">
+                        <div class="col-lg-3 col-md-6 col-sm-6 headerFirst">
+                            <p>
+                                Kupon kodu
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 headerSecond">
+                            <p>
+                                Hədİyyə
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-1 headerThird">
+                            <p>
+                                Tİraj nömrəsİ
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 winnerTable">
+                    <table class="table scrollable">
+                      
+                        <tbody>
+
+                            <tr>
+                                <td class="tableCount" >1</td>
+                                <td class="tableCode">#4787438749</td>
+                                <td class="tableGift">Hyudai Venyu</td>
+                                <td class="tableNumber">1-ci tiraj 1-ci mərhələ</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="tableCount" >2</td>
+                                <td class="tableCode">#4787438749</td>
+                                <td class="tableGift">1 ədəd kupon</td>
+                                <td class="tableNumber">1-ci tiraj 1-ci mərhələ</td>
+                            </tr>
+                            <tr>
+                                <td class="tableCount" >3</td>
+                                <td class="tableCode">#4787438749</td>
+                                <td class="tableGift">1 ədəd kupon</td>
+                                <td class="tableNumber">1-ci tiraj 1-ci mərhələ</td>
+                            </tr>
+                            <tr>
+                                <td class="tableCount" >4</td>
+                                <td class="tableCode">#4787438749</td>
+                                <td class="tableGift">1 ədəd kupon</td>
+                                <td class="tableNumber">1-ci tiraj 1-ci mərhələ</td>
+                            </tr>
+                            <tr>
+                                <td class="tableCount" >5</td>
+                                <td class="tableCode">#4787438749</td>
+                                <td class="tableGift">1 ədəd kupon</td>
+                                <td class="tableNumber">1-ci tiraj 1-ci mərhələ</td>
+                            </tr>
+                            <tr>
+                                <td class="tableCount" >6</td>
+                                <td class="tableCode">#4787438749</td>
+                                <td class="tableGift">1 ədəd kupon</td>
+                                <td class="tableNumber">1-ci tiraj 1-ci mərhələ</td>
+                            </tr>
+                            <tr>
+                                <td class="tableCount" >7</td>
+                                <td class="tableCode">#4787438749</td>
+                                <td class="tableGift">1 ədəd kupon</td>
+                                <td class="tableNumber">1-ci tiraj 1-ci mərhələ</td>
+                            </tr>
+                            <tr>
+                                <td class="tableCount" >8</td>
+                                <td class="tableCode">#4787438749</td>
+                                <td class="tableGift">1 ədəd kupon</td>
+                                <td class="tableNumber">1-ci tiraj 1-ci mərhələ</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footerUp">
+            <div class="row">
+                <div class="col-lg-4 footerNumber">
+                    <div class="footerLeft">
+                        <p>Qaynar Xətt</p>
+                        <a href="tel:"> *1988 </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 footerSocial">
+                    <div class="footerLeft">
+                        <p>Bizi sosial mediada izləyin</p>
+                        <ul>
+                            <li>
+                                <a href="https://www.pinterest.com/mcdonalds/">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/mcdonalds.az/">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/McDonalds.az/">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/showcase/mcdonald's-azerbaijan/?originalSubdomain=az">
+                                    <i class="fa-brands fa-linkedin lastFoooterIcon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 footerApp">
+                    <div class="footerLeft">
+                        <p>Tətbiqi yükləmək üçün</p>
+                        <ul>
+                            <li>
+                                <a href="https://apps.apple.com/az/app/mcdonalds/id1217507712">
+                                    <img src="./Images/Footer/footer-app-store.png" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp&hl=az">
+                                    <img src="./Images/Footer/footer-play-store.png" alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <div class="row">
+                <ul>
+                    <li>
+                        <img src="./Images/Footer/McDonaldsCopyRight.png" alt="" />
+                    </li>
+                    <li>
+                        <p>© 2021 McDonald's Bütün hüquqlar qorunur</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+    
+</body>
+
+</html>

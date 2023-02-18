@@ -1,0 +1,1119 @@
+@media screen and (max-width: 1200px) {
+  body {
+    main {
+      #mcdPriceCarLottery {
+        margin-bottom: 3vw !important;
+      }
+      #tirajs {
+        padding: 0 80px;
+
+        .tiraj {
+          .tirajDate {
+            border-top: 1px solid #f5f5f5;
+            padding-left: 0 !important;
+            padding-right: 20px !important;
+          }
+          .tirajInfo {
+            border-top: none !important ;
+            padding-left: 30px !important;
+          }
+        }
+      }
+      #questions {
+        transition: all 0.5s;
+        padding: 0 100px;
+      }
+      #prizes {
+        .prizesDown {
+          .prizeBoxs {
+            .prizeBox {
+              width: 28.5vw;
+              height: 29vw;
+              .prize-name {
+                font-size: 2.2vw;
+                width: 21.8vw;
+                height: 5.3vw;
+              }
+
+              .prizeImage {
+                .ticket-img {
+                  width: 22.3vw;
+                  height: 22.3vw;
+                }
+                .tshirt-img {
+                  width: 22vw;
+                  height: 20vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  body {
+    header {
+      .headerNav {
+        nav {
+          .container-fluid {
+            .offcanvas {
+              position: fixed;
+              --bs-offcanvas-padding-y: none;
+
+              .offcanvas-header {
+                position: relative;
+
+                button {
+                  position: absolute;
+                  right: 19.5px;
+                  top: 59.5px;
+                }
+              }
+              .offcanvas-body {
+                padding: 164px 105px 0px 26px;
+                ul {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 24px;
+                  .visible {
+                    display: none;
+                  }
+                  .unvisible {
+                    display: inherit;
+                    a {
+                       margin: 0px;
+                       line-height: 35.2px;
+                    }
+                  }
+                  li {
+                    a {
+                      font-size: 32px;
+                    }
+                    .backColor {
+                      padding-top: 0px;
+                      display: inline;
+                      background: none;
+                      width: 0px;
+                      height: 0px;
+                    }
+                    &:last-child {
+                      position: absolute;
+                      bottom: 0px;
+                      display: block;
+                      a {
+                        font-family: Speedy;
+                        display: inline-block;
+                        font-size: 12px;
+                        line-height: 15px;
+                        font-weight: 400;
+                        width: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    footer {
+      .footerUp {
+        .row {
+          gap: 5px;
+          .footerNumber {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+          }
+          .footerSocial {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            .footerLeft {
+              ul {
+                justify-content: space-between;
+              }
+            }
+          }
+          .footerApp {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            p {
+              display: flex !important;
+              align-items: center !important;
+              justify-content: center !important;
+            }
+          }
+        }
+      }
+      .copyRight {
+        margin-top: 40px;
+        ul {
+          display: flex;
+          justify-content: center;
+          gap: 12px;
+        }
+      }
+    }
+    #questions {
+      transition: all 0.5s;
+      padding: 0 80px;
+      .pagesInfo {
+        .pageTitles {
+          .pageTitle1 {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            height: 47px !important;
+            width: 443px !important;
+
+            h1 {
+              display: flex !important;
+              justify-content: center !important;
+              align-items: center !important;
+              margin: 0px;
+              font-size: 40px;
+            }
+          }
+          .pageTitle2 {
+            width: 205px !important;
+            height: 47px !important;
+
+            h1 {
+              font-size: 40px;
+            }
+          }
+        }
+      }
+
+      .questionRow {
+        .questionBoxs {
+          .questionBox {
+            padding: 29px 0px;
+          }
+          .answerRow {
+            .answerBox {
+              width: 728px !important;
+              padding: 0px 50px !important;
+            }
+          }
+        }
+      }
+    }
+
+    #tirajs {
+      padding: 0 100px;
+
+      .tiraj {
+        .tirajDate {
+          padding-left: 0 !important;
+        }
+        .tirajInfo {
+          border-top: none !important ;
+          padding-left: 25px !important;
+        }
+      }
+    }
+    #winner {
+      padding: 0 40px;
+      .pagesInfo {
+        .pageTitle {
+          width: 240px;
+          height: 48px;
+
+          h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 43px;
+          }
+        }
+      }
+      .winnerBox {
+        .tablesHeader {
+    
+          margin-top: 32px;
+          p {
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+          .tableContent {
+            justify-content: center;
+
+            --bs-gutter-x: 0px;
+            .headerFirst {
+             margin-left: 0px;
+             padding-left: 15px;
+            }
+            .headerSecond {
+              padding-left: 33px;
+              margin-left: 0px;
+            }
+            .headerThird {
+              display: none;
+            }
+          }
+          
+        }
+        .winnerTable {
+          .table {
+            tbody {
+              .tableNumber {
+                display: none;
+              }
+              tr {
+                height: 56px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    #mcdPriceCarLottery {
+      margin-bottom: 30px !important;
+    }
+    #prizes {
+      .prizesDown {
+        display: flex;
+        justify-content: center;
+
+        .prizeBoxs {
+          margin-top: 10px;
+          position: static;
+          .prizeBox {
+            width: 400px !important;
+            height: 300px !important;
+            position: relative;
+            .prize-name {
+              position: absolute;
+              top: 8.2%;
+              left: 7%;
+              font-size: 25px !important;
+              width: 250px !important;
+              height: 60px !important;
+            }
+
+            .prizeImage {
+              padding-left: 50px;
+              .ticket-img {
+                width: 250px !important;
+                height: 250px !important;
+              }
+              .tshirt-img {
+                width: 230px !important;
+                height: 230px !important;
+              }
+              .burger-img {
+                width: 300px !important;
+                height: 300px !important;
+              }
+            }
+          }
+        }
+        .prizeBoxsLeft {
+          justify-content: center !important;
+        }
+        .prizeBoxsRight {
+          justify-content: center !important;
+        }
+      }
+    }
+    #lotteryForm {
+    
+    .form-title {
+      
+      h1 {
+      
+      }
+    }
+
+    .form-content {
+      justify-content: center;
+      form {
+        .formRow {
+          display: flex;
+          justify-content: center;
+          .paddings {
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+          .form-control,
+          select {
+            height: 48px;
+          }
+          .formNameSurname {
+            margin-bottom: 20px !important;
+            .formName {
+            }
+          }
+          .formNumberEmail {
+            margin-bottom: 20px !important;
+            gap: 20px;
+            .formNumber {
+              .numberSelect {
+                --bs-gutter-x: 0.5rem;
+                select {
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+          .formLocationBirthday {
+            margin-bottom: 20px !important;
+            gap: 13px;
+            .formBirthday {
+              .birthdaySelect {
+                --bs-gutter-x: 0.8rem;
+                select {
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+          .formGenderSeriaNumber {
+            margin-bottom: 20px !important;
+            gap: 20px;
+            .formGender {
+              .formGenderRadios {
+                display: flex;
+                gap: 10px;
+                .form-check {
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  width: 162px;
+                  height: 48px;
+                  border: 1px solid #dddfe2;
+                  border-radius: 6px;
+                  input {
+                    background: #d9d9d9;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 6px;
+                    margin-left: -16px;
+                  }
+
+                  label {
+                  }
+                }
+                .form-check-input:checked {
+                  background-color: #ffb635;
+                  border-color: #ffb635;
+                }
+              }
+            }
+          }
+        }
+        .formRowDown {
+          .paddingsDown{
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+          justify-content: center;
+          .formCuponNumber {
+            input {
+              height: 48px;
+            }
+            margin-bottom: 20px !important;
+          }
+          .checkCondition {
+            margin-bottom: 10px !important;
+            input {
+              width: 20px;
+              height: 20px;
+            }
+            label {
+              font-size: 13px;
+              color: #bababa;
+              line-height: 17.55px;
+              a {
+                font-weight: bold;
+              }
+            }
+          }
+          .checkAge {
+            input {
+              width: 20px;
+              height: 20px;
+            }
+            label {
+              font-size: 13px;
+              color: #bababa;
+              line-height: 17.55px;
+              a {
+                font-weight: bold;
+              }
+            }
+          }
+          .buttonSubmit {
+            button {
+              width: 100%;
+              background-color: #ffb635;
+              border: none;
+              color: #111111;
+              height: 48px;
+              font-weight: 400;
+              margin-top: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    header {
+      padding: 0px 20px;
+      .headerNav {
+        nav {
+          .container-fluid {
+            .offcanvas {
+              --bs-offcanvas-width: 292px;
+              .offcanvas-header {
+                button {
+                }
+              }
+              .offcanvas-body {
+                padding-right: 30px;
+                ul {
+                  li {
+                    a {
+                    }
+                    .backColor {
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    main {
+      padding: 0px 20px;
+      #mcdPriceCarLottery {
+        margin-bottom: 20px !important;
+        .carLotteryImage {
+          .carLotteryImage-text {
+            width: 225px;
+            position: static;
+            padding-bottom: 24px;
+            .carLotteryImage-textUp {
+              height: 40px;
+              p {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+
+      #tirajs {
+        padding: 0px;
+        .pagesInfo {
+          .pageInfo {
+            a {
+              p,span {
+                text-transform: uppercase !important;
+              }
+            }
+          }
+          .pageTitle {
+            width: 190px;
+            height: 42px;
+            display: flex;
+            justify-content: center;
+            h1 {
+              font-size: 40px !important;
+              line-height: 50px;
+            }
+          }
+        }
+        .tiraj {
+          --bs-gutter-x: 0;
+          .tirajInfoUp {
+            padding-bottom: 0px !important;
+          }
+          .tirajDate {
+            padding-bottom: 0px !important;
+            border-top: 1px solid #f5f5f5;
+            padding-left: 0 !important;
+            padding-right: 22px !important;
+          }
+          .tirajInfo {
+            padding-bottom: 32px !important;
+            border-top: none !important ;
+            padding-left: 25px !important;
+            P {
+              font-size: 15px !important;
+            }
+          }
+          .tirajLast {
+            padding-bottom: 60px !important;
+          }
+        }
+      }
+
+      #questions {
+        
+        transition: all 0.5s;
+        padding: 0 10px;
+        padding: 0px;
+        .pagesInfo {
+          margin-bottom: 46px !important;
+          .pageInfo {
+            a,span {
+              font-size: 13px;
+            }
+            a {
+              text-transform: uppercase;
+            }
+          }
+          .pageTitles {
+            .pageTitle1 {
+              height: 47px !important;
+              width: 331px !important;
+
+              h1 {
+                font-size: 40px;
+              }
+            }
+            .pageTitle2 {
+              width: 181px !important;
+              height: 40px !important;
+
+              h1 {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+        .questionRow {
+          .questionBoxs {
+            .questionBox {
+              padding: 18px 0px;
+              border-radius: 8px;
+              cursor: pointer;
+              background-color: #fcfcfc;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .answerBoxNumber {
+                  display: flex;
+                  justify-content: start;
+                  align-items: center;
+                p {
+                  font-size: 15px !important;
+                }
+              }
+              .answerBoxTitle {
+                  display: flex;
+                  justify-content: start;
+                  align-items: center;
+                p {
+                  font-size: 15px !important;
+                }
+              }
+              .answerBoxButton {
+                  display: flex;
+                  justify-content: end;
+                  align-items: center;
+                button {
+                  background: #FDEED4;
+                  opacity: 0.2;
+                  transform: rotate(90deg);
+                  border-radius: 50%;
+                  i {
+                      font-weight: 700;
+                    color: #FFB635;
+                  }
+                }
+              }
+            }
+            .answerRow{
+              --bs-gutter-x: 0;
+              .answerBox{
+                  width: 728px !important;
+                  padding: 0px 40px !important;
+                  .card{
+                      border: none;
+                      background-color: FCFCFC;
+                      padding: 0px;
+                      p{
+                          font-weight: 400;
+                          font-size: 16px;
+                          line-height: 150%;
+                          color: #7F7F7F;
+                          
+                      }
+                  }
+                 
+              }
+            }
+          }
+        }
+      }
+      #winner {
+        padding: 0px;
+        .pagesInfo {
+          .pageInfo {
+            a {
+              p,span {
+                text-transform: uppercase !important;
+              }
+            }
+          }
+          .pageTitle {
+            width: 200px;
+            height: 42px;
+
+            h1 {
+              display: flex;
+              justify-content: center;
+              font-size: 40px;
+            }
+          }
+        }
+        .winnerBox {
+          margin-top: 88px;
+          .tablesHeader {
+            p {
+              font-size: 15px;
+            }
+            .tableContent {
+              .headerFirst {
+               padding-left: 15px;
+               width: 47%;
+              }
+              .headerSecond {
+                padding-left: 33px;
+                margin-left: 0px;
+                width: 47%;
+              }
+              .headerThird {
+                display: none;
+              }
+            }
+          }
+          .winnerTable {
+            td {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      #prizes {
+        padding: 40px 0px 24px 0px;
+        .prizeImageCar {
+          .prizeImageCarComp {
+            display: none;
+            transition: all 0.5s;
+          }
+          .prizeImageCarTel {
+            transition: all 0.5s;
+            display: block;
+          }
+          .prize-name {
+            font-size: 5vw !important;
+            width: 270px;
+            left: 4.3%;
+          }
+          .count {
+            left: 4.4%;
+            width: 65px;
+            height: 28px;
+            p {
+              font-size: 20px;
+              line-height: 23px;
+            }
+          }
+        }
+        .prizesDown {
+          .prizeBoxs {
+            .prizeBox {
+              width: 100% !important;
+              height: 250px;
+              .prize-name {
+                left: 4%;
+              }
+              .count {
+                bottom: 7%;
+                left: 4%;
+              }
+              .prizeImage {
+                .burger-img {
+                  width: 280px !important;
+                  height: 280px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+      #lotteryForm {    
+        .form-content {
+          justify-content: center;
+          form {
+            .formValidation {
+              --bs-gutter-x: 0px;
+              .paddings {
+                .checkDateSum {
+                  gap: 24px;
+                  .checkDate {
+                    .checkDateSelect {
+                      --bs-gutter-x: 0.5rem;
+                      select {
+                        font-size: 15px;
+                        option {
+                          
+                        }
+                      }
+                    }
+                  } 
+                }
+              }
+              .form-control,
+              select {
+                height: 48px;
+              }
+    
+            }
+            .formRow {
+              --bs-gutter-x: 0;
+
+            }
+            .formRowDown {
+              --bs-gutter-x: 0;
+            }
+            .formEnd {
+             --bs-gutter-x: 0;
+             margin-top: 30px;
+            }
+          }
+        }
+      }
+    }
+
+    footer {
+      padding: 0px 20px;
+      .footerUp {
+        .row {
+          flex-direction: column;
+          .footerNumber {
+            display: flex;
+            align-items: flex-end !important;
+            justify-content: flex-start !important;
+          }
+          .footerSocial {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            .footerLeft {
+              ul {
+                justify-content: space-between;
+              }
+            }
+          }
+          .footerApp {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            p {
+              display: flex !important;
+              align-items: center !important;
+              justify-content: flex-start !important;
+            }
+            ul {
+              li {
+                a {
+                  img {
+                    width: 156.49px;
+                    height: 43.99px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .copyRight {
+        margin-top: 40px;
+        ul {
+          display: flex;
+          justify-content: flex-start;
+          gap: 0px;
+          li {
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 552px) {
+  body {
+    #mcdPriceCarLottery {
+      margin-bottom: 1px !important;
+      .carLotteryImage {
+        img {
+          height: 200px;
+        }
+      }
+    }
+    #prizes {
+      .prizeTitle {
+        h1 {
+          font-size: 32px !important;
+        }
+      }
+      .prizeImageCar {
+        .prizeImageCarComp {
+        }
+        .prizeImageCarTel {
+        }
+        .prize-name {
+          left: 4.6% !important;
+        }
+        .count {
+          left: 4.6% !important;
+          width: 51px !important;
+          height: 20px !important;
+          p {
+            font-size: 16px !important;
+            line-height: 14px !important;
+          }
+        }
+      }
+      .prizesDown {
+        .prizeBoxs {
+          .prizeBox {
+            height: 200px !important;
+            .prize-name {
+              left: 4.6% !important;
+              font-size: 18px !important;
+              width: 230px !important;
+              p {
+                display: none;
+              }
+            }
+            .count {
+              left: 4.6% !important;
+              width: 17.5vw !important;
+              height: 20px !important;
+              p {
+                font-size: 4vw !important;
+                line-height: 14px !important;
+              }
+            }
+            .c-second {
+              width: 20vw !important;
+             
+            }
+            .c-third {
+              width: 22.1vw !important;
+              
+            }
+            .prizeImage {
+              padding-left: 60px ;
+              .ticket-img {
+                width: 189px !important;
+                height: 187px !important;
+              }
+              .tshirt-img {
+                width: 196px !important;
+                height: 195px !important;
+              }
+              .burger-img {
+                width: 262px !important;
+                height: 262px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    #lotteryForm {
+      
+      .form-title {
+        h1 {
+          font-size: 32px !important;
+          line-height: 37.8px;
+        }
+      }
+  
+      .form-content {
+        form {
+          .formRow {
+           
+            .form-control,select {
+            }
+            .formNameSurname {
+              --bs-gutter-x: 9px;
+              .formName {
+              }
+            }
+            .formGenderSeriaNumber {
+              .formGender {
+                .formGenderRadios {
+                  .form-check {
+                      
+                    input {
+                    }
+                  
+                    label {
+                    }
+                  }
+                  .form-check-input:checked {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #winner {
+      padding: 0px;
+      .pagesInfo {
+        .pageTitle {
+          width: 200px;
+          height: 42px;
+
+          h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+          }
+        }
+      }
+      .winnerBox {
+        margin-top: 88px;
+        .tablesHeader {
+          .tableContent {
+            .headerFirst {
+             padding-left: 2px !important;
+             width: 47%;
+            }
+            .headerSecond {
+              padding-left: 21px !important;
+              width: 47%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media screen and (max-width:400px) {
+//   #prizes {
+//     .prizeTitle {
+//       h1 {
+//         font-size: 32px !important;
+//       }
+//     }
+//     .prizeImageCar {
+//       .prizeImageCarComp {
+//       }
+//       .prizeImageCarTel {
+//       }
+//       .prize-name {
+//         left: 4.6% !important;
+//       }
+//       .count {
+//         left: 4.6% !important;
+//         width: 51px !important;
+//         height: 20px !important;
+//         p {
+//           font-size: 16px !important;
+//           line-height: 14px !important;
+//         }
+//       }
+//     }
+//     .prizesDown {
+//       .prizeBoxs {
+//         .prizeBox {
+//           height: 200px !important;
+//           .prize-name {
+//             left: 4.6% !important;
+//             font-size: 18px !important;
+//             width: 230px !important;
+//             p {
+//               display: none;
+//             }
+//           }
+//           .count {
+//             left: 4.6% !important;
+//             width: 62px !important;
+//             height: 20px !important;
+//             p {
+//               font-size: 16px !important;
+//               line-height: 14px !important;
+//             }
+//           }
+//           .c-second {
+//             width: 70px !important;
+           
+//           }
+//           .c-third {
+//             width: 79px !important;
+            
+//           }
+//           .prizeImage {
+//             padding-left: 70px !important;
+//             .ticket-img {
+//               width: 189px !important;
+//               height: 187px !important;
+//             }
+//             .tshirt-img {
+//               width: 196px !important;
+//               height: 195px !important;
+//             }
+//             .burger-img {
+//               width: 262px !important;
+//               height: 262px !important;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media screen and (max-width: 365px) {
+  body {
+    main {
+      #questions {
+        .pagesInfo {
+          .pageTitles {
+            .pageTitle1 {
+              height: 47px !important;
+              width: 313px !important;
+
+              h1 {
+                font-size: 35px;
+              }
+            }
+            .pageTitle2 {
+              width: 205px !important;
+              height: 47px !important;
+
+              h1 {
+                font-size: 35px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

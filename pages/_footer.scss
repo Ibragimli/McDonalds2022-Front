@@ -1,0 +1,104 @@
+body {
+  footer {
+    padding: 0px 60px;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    .footerUp {
+      margin-top: 40px;
+      .row {
+        .footerNumber {
+          p {
+            font-family: SpeedeBd;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            font-style: normal;
+          }
+          a {
+            font-family: SpeedeBd;
+            width: 90px;
+            height: 40px;
+            font-size: 35px;
+            color: #111111;
+            font-weight: 700;
+          }
+        }
+        .footerSocial {
+          display: flex;
+          justify-content: center;
+          p {
+            font-family: SpeedeBd;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            font-style: normal;
+            margin-bottom: 10px;
+          }
+          ul {
+            display: flex;
+            
+            li {
+              a {
+                i {
+                  margin-right: 12.82px;
+                  width: 17.1px;
+                  height: 17.57px;
+                }
+                .lastFoooterIcon {
+                  margin-right: 0px;
+                }
+              }
+            }
+          }
+        }
+        .footerApp {
+          display: flex;
+          justify-content: end;
+          p {
+            font-family: SpeedeBd;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            font-style: normal;
+            margin-bottom: 10px;
+          }
+          ul {
+            display: flex;
+            gap: 16.76px;
+            li {
+              a {
+                img {
+                  width: 136.9px;
+                  height: 39.5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .copyRight {
+      margin-top: 52px;
+      padding-bottom: 20px;
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          img {
+          }
+          p {
+            font-family: Speede;
+            padding-left: 12px;
+            color: #111111;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+          }
+        }
+      }
+    }
+  }
+}

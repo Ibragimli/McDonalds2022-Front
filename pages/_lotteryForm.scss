@@ -1,0 +1,209 @@
+main {
+  .active {
+    background: #fff0d6;
+  }
+  #lotteryForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    .form-title {
+      text-align: center;
+      width: 357px;
+      height: 106px;
+      align-items: center;
+      h1 {
+        font-family: SpeedeBd;
+        font-weight: bold;
+        font-size: 44px;
+        p {
+          font-family: SpeedeBd;
+        }
+      }
+    }
+
+    .form-content {
+      justify-content: center;
+      
+      form {
+        .formValidationCheck {
+          transition: all 0.4 ease;
+          text-align: end;
+          span {
+            font-size: 20px;
+            text-transform: uppercase;
+          }
+        }
+        .formValidation {
+          justify-content: center;
+          .paddings {
+            padding-left: 0px;
+            padding-right: 0px;
+            .checkDateSum {
+              margin-bottom: 24px;
+              .checkDate {
+                .checkDateSelect {
+                  --bs-gutter-x: 0.5rem;
+                  select {
+                    font-size: 14px;
+                    padding-left: 5px;
+                    option {
+                    }
+                  }
+                }
+              } 
+            }
+          }
+          .form-control,
+          select {
+            height: 48px;
+          }
+
+        }
+        .formRow {
+          justify-content: center;
+          label,input,select {
+            font-family: Speede;
+          }
+          .paddings {
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+          .form-control,
+          select {
+            height: 48px;
+          }
+          .formNameSurname {
+            margin-bottom: 24px;
+            .formName {
+
+            }
+          }
+          .formNumberEmail {
+            margin-bottom: 24px;
+            .formNumber {
+              .numberSelect {
+                --bs-gutter-x: 0.5rem;
+                select {
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+          .formLocationBirthday {
+            margin-bottom: 24px;
+            .formBirthday {
+              .birthdaySelect {
+                --bs-gutter-x: 0.8rem;
+                select {
+                  padding-right: 5px;
+                }
+              }
+            }
+          }
+          .formGenderSeriaNumber {
+            margin-bottom: 24px;
+            .formGender {
+              .formGenderRadios {
+                display: flex;
+                gap: 10px;
+                .form-check {
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+
+                  width: 162px;
+                  height: 48px;
+                  border: 1px solid #dddfe2;
+                  border-radius: 6px;
+                  input {
+                    background: #d9d9d9;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 6px;
+                    margin-left: -16px;
+                  }
+
+                  label {
+                    padding-top: 8px;
+                  }
+                }
+                .form-check-input:checked {
+                  background-color: #ffb635;
+                  border-color: #ffb635;
+                }
+              }
+            }
+          }
+        }
+        .formRowDown {
+          label,input,select {
+            font-family: Speede;
+          }
+          .paddingsDown {
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+          justify-content: center;
+          // .formCuponNumber {
+          //   input {
+          //     height: 48px;
+          //   }
+          //   margin-bottom: 24px;
+          // }  
+          .checkCondition {
+            margin-bottom: 16px;
+            input {
+              width: 20px;
+              height: 20px;
+            }
+            label {
+              font-size: 13px;
+              color: #bababa;
+              line-height: 17.55px;
+              a {
+                font-weight: bold;
+              }
+            }
+          }
+          .checkAge {
+            
+            input {
+              width: 20px;
+              height: 20px;
+            }
+            label {
+              font-size: 13px;
+              color: #bababa;
+              line-height: 17.55px;
+              a {
+                font-weight: bold;
+              }
+            }
+          }
+        }
+        .formEnd {
+          margin-top: 40px;
+          justify-content: center;
+          .buttonPadding {
+            padding-left: 0px;
+            padding-right: 0px;
+            .buttonSubmit {
+              button {
+                width: 100%;
+                background-color: #ffb635;
+                border: none;
+                color: #111111;
+                height: 48px;
+                font-weight: 400;
+                font-family: Speede;
+              }
+            }
+          }
+         
+        }
+      }
+    }
+  }
+}

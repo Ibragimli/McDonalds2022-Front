@@ -1,0 +1,136 @@
+body {
+  #prizes {
+    padding: 65px 0px 24px 0px;
+    .row-bs-0 {
+      --bs-gutter-x: 0;
+    }
+    .prizeTitle {
+      display: flex;
+      justify-content: center;
+      h1 {
+        font-family: SpeedeBd;
+        margin-bottom: 24px;
+        font-size: 48px;
+        line-height: 110%;
+        font-weight: 700;
+        font-style: normal;
+      }
+    }
+
+    .prizeImageCar {
+      position: relative;
+      .prize-name {
+        font-family: SpeedeBd;
+        position: absolute;
+        top: 7%;
+        left: 2.6%;
+        font-weight: bold;
+        font-size: 32px;
+        width: 223px;
+        height: 38px;
+        margin: 0px;
+      }
+      .count {
+        bottom: 7%;
+        left: 2.6%;
+        width: 77px;
+        height: 33px;
+        position: absolute;
+        background-color: #fbbd28;
+        p {
+          width: 76px;
+          height: 22px;
+          font-size: 24px;
+          font-weight: bold;
+          padding: 6px 3px 0px 3px;
+          font-weight: bold;
+          line-height: 29px;
+        }
+      }
+      .prizeImageCarTel {
+        display: none;
+      }
+      img {
+        background: #f8f8f8;
+        border: 1px solid #fdfdfd;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .prizesDown {
+      margin-top: 24px;
+      --bs-gutter-x: 0;
+      h2 {
+        font-family: SpeedeBd;
+      }
+      .prizeBoxs {
+        position: relative;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        .prizeBox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 29.5vw;
+          height: 30vw;
+          border-radius: 10px;
+          background-color: #FDFDFD;
+          &:hover {
+            opacity: 0.8;
+          }
+          .prize-name {
+            position: absolute;
+            top: 8.2%;
+            left: 8%;
+            font-weight: bold;
+            font-size: 2.2vw;
+            width: 21.8vw;
+            height: 5.3vw;
+            margin: 0px;
+            p {
+              font-weight: 300;
+              font-style: normal;
+              font-size: 24px;
+            }
+          }
+          .count {
+            bottom: 7%;
+            left: 8%;
+            height: 33px;
+            position: absolute;
+            background-color: #fbbd28;
+            p {
+              height: 22px;
+              font-size: 24px;
+              font-weight: bold;
+              padding: 6px 3px 0px 3px;
+              line-height: 29px;
+            }
+          }
+          .prizeImage {
+            .ticket-img {
+              width: 22.3vw;
+              height: 22.3vw;
+            }
+            .tshirt-img {
+              width: 22.6vw;
+              height: 22.6vw;
+            }
+            .burger-img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+      .prizeBoxsLeft {
+        justify-content: start ;
+      }
+      .prizeBoxsRight {
+        justify-content: end ;
+      }
+    }
+  }
+}

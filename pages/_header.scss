@@ -1,0 +1,115 @@
+body {
+  header {
+    .row {
+      .headerLogo {
+        padding-top: 40px;
+        a {
+          .headerLogoImages {
+            display: flex;
+
+            .headerLogoImage {
+              .mcLogoBackground {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #db001c;
+                width: 70.24px;
+                height: 69.98px;
+                border-radius: 5px;
+                .mcLogo {
+                  width: 46.63px;
+                  height: 40.65px;
+                }
+              }
+
+              .mclineBackground {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 12.74px;
+                .lineLogo {
+                  width: 5.06px;
+                  height: 69.98px;
+                }
+              }
+              .fifaLogoBackground {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 12.74px;
+                flex-direction: column;
+                .fifaCupLogo {
+                  width: 23.66px;
+                  height: 50.63px;
+                }
+                .fifaLogo {
+                  width: 53.09px;
+                  height: 8.7px;
+                }
+                .qatarLogo {
+                  width: 53.09px;
+                  height: 8.7px;
+                  
+                }
+              }
+            }
+          }
+        }
+      }
+      .headerNav {
+        .navbar {
+          display: flex;
+          justify-content: end;
+          padding-top: 66px;
+          .text-bg {
+            background-color: #fbbd28;
+          }
+          
+          .offcanvas-body {
+            justify-content: end !important;
+            ul {
+              margin-right: 0px !important;
+              .unvisible {
+                display: none;
+              }
+              li{
+                a {
+                  //fontfamily speede
+                  font-family: SpeedeBd;
+                  font-size: 16px;
+                  line-height: 20.22px;
+                  vertical-align: top;
+                  color: #111111;
+                  font-weight: 700;
+                  padding: 0px;
+                  margin-right: 45.61px;
+                }
+                .lastA{
+                    margin-right: 0px ;
+                }
+                .backColor {
+                  padding-top: 4px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background: #fbbd28;
+                  width: 95px;
+                  height: 20px !important;
+                }
+                &:last-child {
+                  display: none;
+                  a{
+                    font-family: Speede !important;
+                  }
+                }
+              }
+              li:hover {
+                opacity: 0.8;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

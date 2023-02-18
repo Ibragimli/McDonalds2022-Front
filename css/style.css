@@ -1,0 +1,1770 @@
+body header .row .headerLogo {
+  padding-top: 40px;
+}
+body header .row .headerLogo a .headerLogoImages {
+  display: flex;
+}
+body header .row .headerLogo a .headerLogoImages .headerLogoImage .mcLogoBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #db001c;
+  width: 70.24px;
+  height: 69.98px;
+  border-radius: 5px;
+}
+body header .row .headerLogo a .headerLogoImages .headerLogoImage .mcLogoBackground .mcLogo {
+  width: 46.63px;
+  height: 40.65px;
+}
+body header .row .headerLogo a .headerLogoImages .headerLogoImage .mclineBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12.74px;
+}
+body header .row .headerLogo a .headerLogoImages .headerLogoImage .mclineBackground .lineLogo {
+  width: 5.06px;
+  height: 69.98px;
+}
+body header .row .headerLogo a .headerLogoImages .headerLogoImage .fifaLogoBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12.74px;
+  flex-direction: column;
+}
+body header .row .headerLogo a .headerLogoImages .headerLogoImage .fifaLogoBackground .fifaCupLogo {
+  width: 23.66px;
+  height: 50.63px;
+}
+body header .row .headerLogo a .headerLogoImages .headerLogoImage .fifaLogoBackground .fifaLogo {
+  width: 53.09px;
+  height: 8.7px;
+}
+body header .row .headerLogo a .headerLogoImages .headerLogoImage .fifaLogoBackground .qatarLogo {
+  width: 53.09px;
+  height: 8.7px;
+}
+body header .row .headerNav .navbar {
+  display: flex;
+  justify-content: end;
+  padding-top: 66px;
+}
+body header .row .headerNav .navbar .text-bg {
+  background-color: #fbbd28;
+}
+body header .row .headerNav .navbar .offcanvas-body {
+  justify-content: end !important;
+}
+body header .row .headerNav .navbar .offcanvas-body ul {
+  margin-right: 0px !important;
+}
+body header .row .headerNav .navbar .offcanvas-body ul .unvisible {
+  display: none;
+}
+body header .row .headerNav .navbar .offcanvas-body ul li a {
+  font-family: SpeedeBd;
+  font-size: 16px;
+  line-height: 20.22px;
+  vertical-align: top;
+  color: #111111;
+  font-weight: 700;
+  padding: 0px;
+  margin-right: 45.61px;
+}
+body header .row .headerNav .navbar .offcanvas-body ul li .lastA {
+  margin-right: 0px;
+}
+body header .row .headerNav .navbar .offcanvas-body ul li .backColor {
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fbbd28;
+  width: 95px;
+  height: 20px !important;
+}
+body header .row .headerNav .navbar .offcanvas-body ul li:last-child {
+  display: none;
+}
+body header .row .headerNav .navbar .offcanvas-body ul li:last-child a {
+  font-family: Speede !important;
+}
+body header .row .headerNav .navbar .offcanvas-body ul li:hover {
+  opacity: 0.8;
+}
+
+body footer {
+  padding: 0px 60px;
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+body footer .footerUp {
+  margin-top: 40px;
+}
+body footer .footerUp .row .footerNumber p {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+}
+body footer .footerUp .row .footerNumber a {
+  font-family: SpeedeBd;
+  width: 90px;
+  height: 40px;
+  font-size: 35px;
+  color: #111111;
+  font-weight: 700;
+}
+body footer .footerUp .row .footerSocial {
+  display: flex;
+  justify-content: center;
+}
+body footer .footerUp .row .footerSocial p {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+body footer .footerUp .row .footerSocial ul {
+  display: flex;
+}
+body footer .footerUp .row .footerSocial ul li a i {
+  margin-right: 12.82px;
+  width: 17.1px;
+  height: 17.57px;
+}
+body footer .footerUp .row .footerSocial ul li a .lastFoooterIcon {
+  margin-right: 0px;
+}
+body footer .footerUp .row .footerApp {
+  display: flex;
+  justify-content: end;
+}
+body footer .footerUp .row .footerApp p {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+body footer .footerUp .row .footerApp ul {
+  display: flex;
+  gap: 16.76px;
+}
+body footer .footerUp .row .footerApp ul li a img {
+  width: 136.9px;
+  height: 39.5px;
+}
+body footer .copyRight {
+  margin-top: 52px;
+  padding-bottom: 20px;
+}
+body footer .copyRight ul {
+  display: flex;
+  align-items: center;
+}
+body footer .copyRight ul li p {
+  font-family: Speede;
+  padding-left: 12px;
+  color: #111111;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+body p {
+  margin: 0px;
+}
+body a {
+  color: #111111;
+  text-decoration: none;
+}
+body ul {
+  padding-left: 0px;
+}
+body li {
+  list-style: none;
+}
+body header {
+  padding: 0px 60px;
+}
+body main {
+  padding: 0px 60px;
+  margin: 32.02px 0px 60px 0px;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body a,
+body p,
+body span,
+body li {
+  font-family: Speede;
+  color: #111111;
+}
+
+@font-face {
+  font-family: Speede;
+  src: url(../fonts/Speedee_Rg_az.ttf);
+}
+@font-face {
+  font-family: SpeedeBdlt;
+  src: url(../fonts/Speedee_BdIt_az.ttf);
+}
+@font-face {
+  font-family: SpeedeLt;
+  src: url(../fonts/Speedee_Lt_az.ttf);
+}
+@font-face {
+  font-family: SpeedeBd;
+  src: url(../fonts/Speedee_Bd_az.ttf);
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+main #mcdPriceCarLottery {
+  position: relative;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+main #mcdPriceCarLottery .carLotteryImage img {
+  width: 100%;
+  border-radius: 8px;
+}
+main #mcdPriceCarLottery .carLotteryImage-text {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 320px;
+}
+main #mcdPriceCarLottery .carLotteryImage-text .carLotteryImage-textUp {
+  background-color: #fbbd28;
+  display: inline-block;
+  height: 5vw;
+  margin-bottom: 9px;
+  padding: 5px 9px;
+}
+main #mcdPriceCarLottery .carLotteryImage-text .carLotteryImage-textUp p {
+  font-family: SpeedeBd;
+  font-weight: bold;
+  font-size: 5vw;
+  line-height: 105%;
+}
+
+main .active {
+  background: #fff0d6;
+}
+main #lotteryForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+main #lotteryForm .form-title {
+  text-align: center;
+  width: 357px;
+  height: 106px;
+  align-items: center;
+}
+main #lotteryForm .form-title h1 {
+  font-family: SpeedeBd;
+  font-weight: bold;
+  font-size: 44px;
+}
+main #lotteryForm .form-title h1 p {
+  font-family: SpeedeBd;
+}
+main #lotteryForm .form-content {
+  justify-content: center;
+}
+main #lotteryForm .form-content form .formValidationCheck {
+  transition: all 0.4 ease;
+  text-align: end;
+}
+main #lotteryForm .form-content form .formValidationCheck span {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+main #lotteryForm .form-content form .formValidation {
+  justify-content: center;
+}
+main #lotteryForm .form-content form .formValidation .paddings {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+main #lotteryForm .form-content form .formValidation .paddings .checkDateSum {
+  margin-bottom: 24px;
+}
+main #lotteryForm .form-content form .formValidation .paddings .checkDateSum .checkDate .checkDateSelect {
+  --bs-gutter-x: 0.5rem;
+}
+main #lotteryForm .form-content form .formValidation .paddings .checkDateSum .checkDate .checkDateSelect select {
+  font-size: 14px;
+  padding-left: 5px;
+}
+main #lotteryForm .form-content form .formValidation .form-control,
+main #lotteryForm .form-content form .formValidation select {
+  height: 48px;
+}
+main #lotteryForm .form-content form .formRow {
+  justify-content: center;
+}
+main #lotteryForm .form-content form .formRow label, main #lotteryForm .form-content form .formRow input, main #lotteryForm .form-content form .formRow select {
+  font-family: Speede;
+}
+main #lotteryForm .form-content form .formRow .paddings {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+main #lotteryForm .form-content form .formRow .form-control,
+main #lotteryForm .form-content form .formRow select {
+  height: 48px;
+}
+main #lotteryForm .form-content form .formRow .formNameSurname {
+  margin-bottom: 24px;
+}
+main #lotteryForm .form-content form .formRow .formNumberEmail {
+  margin-bottom: 24px;
+}
+main #lotteryForm .form-content form .formRow .formNumberEmail .formNumber .numberSelect {
+  --bs-gutter-x: 0.5rem;
+}
+main #lotteryForm .form-content form .formRow .formNumberEmail .formNumber .numberSelect select {
+  padding-right: 5px;
+}
+main #lotteryForm .form-content form .formRow .formLocationBirthday {
+  margin-bottom: 24px;
+}
+main #lotteryForm .form-content form .formRow .formLocationBirthday .formBirthday .birthdaySelect {
+  --bs-gutter-x: 0.8rem;
+}
+main #lotteryForm .form-content form .formRow .formLocationBirthday .formBirthday .birthdaySelect select {
+  padding-right: 5px;
+}
+main #lotteryForm .form-content form .formRow .formGenderSeriaNumber {
+  margin-bottom: 24px;
+}
+main #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios {
+  display: flex;
+  gap: 10px;
+}
+main #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios .form-check {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 162px;
+  height: 48px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+main #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios .form-check input {
+  background: #d9d9d9;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  margin-left: -16px;
+}
+main #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios .form-check label {
+  padding-top: 8px;
+}
+main #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios .form-check-input:checked {
+  background-color: #ffb635;
+  border-color: #ffb635;
+}
+main #lotteryForm .form-content form .formRowDown {
+  justify-content: center;
+}
+main #lotteryForm .form-content form .formRowDown label, main #lotteryForm .form-content form .formRowDown input, main #lotteryForm .form-content form .formRowDown select {
+  font-family: Speede;
+}
+main #lotteryForm .form-content form .formRowDown .paddingsDown {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+main #lotteryForm .form-content form .formRowDown .checkCondition {
+  margin-bottom: 16px;
+}
+main #lotteryForm .form-content form .formRowDown .checkCondition input {
+  width: 20px;
+  height: 20px;
+}
+main #lotteryForm .form-content form .formRowDown .checkCondition label {
+  font-size: 13px;
+  color: #bababa;
+  line-height: 17.55px;
+}
+main #lotteryForm .form-content form .formRowDown .checkCondition label a {
+  font-weight: bold;
+}
+main #lotteryForm .form-content form .formRowDown .checkAge input {
+  width: 20px;
+  height: 20px;
+}
+main #lotteryForm .form-content form .formRowDown .checkAge label {
+  font-size: 13px;
+  color: #bababa;
+  line-height: 17.55px;
+}
+main #lotteryForm .form-content form .formRowDown .checkAge label a {
+  font-weight: bold;
+}
+main #lotteryForm .form-content form .formEnd {
+  margin-top: 40px;
+  justify-content: center;
+}
+main #lotteryForm .form-content form .formEnd .buttonPadding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+main #lotteryForm .form-content form .formEnd .buttonPadding .buttonSubmit button {
+  width: 100%;
+  background-color: #ffb635;
+  border: none;
+  color: #111111;
+  height: 48px;
+  font-weight: 400;
+  font-family: Speede;
+}
+
+body #prizes {
+  padding: 65px 0px 24px 0px;
+}
+body #prizes .row-bs-0 {
+  --bs-gutter-x: 0;
+}
+body #prizes .prizeTitle {
+  display: flex;
+  justify-content: center;
+}
+body #prizes .prizeTitle h1 {
+  font-family: SpeedeBd;
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 110%;
+  font-weight: 700;
+  font-style: normal;
+}
+body #prizes .prizeImageCar {
+  position: relative;
+}
+body #prizes .prizeImageCar .prize-name {
+  font-family: SpeedeBd;
+  position: absolute;
+  top: 7%;
+  left: 2.6%;
+  font-weight: bold;
+  font-size: 32px;
+  width: 223px;
+  height: 38px;
+  margin: 0px;
+}
+body #prizes .prizeImageCar .count {
+  bottom: 7%;
+  left: 2.6%;
+  width: 77px;
+  height: 33px;
+  position: absolute;
+  background-color: #fbbd28;
+}
+body #prizes .prizeImageCar .count p {
+  width: 76px;
+  height: 22px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 6px 3px 0px 3px;
+  font-weight: bold;
+  line-height: 29px;
+}
+body #prizes .prizeImageCar .prizeImageCarTel {
+  display: none;
+}
+body #prizes .prizeImageCar img {
+  background: #f8f8f8;
+  border: 1px solid #fdfdfd;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+body #prizes .prizesDown {
+  margin-top: 24px;
+  --bs-gutter-x: 0;
+}
+body #prizes .prizesDown h2 {
+  font-family: SpeedeBd;
+}
+body #prizes .prizesDown .prizeBoxs {
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 29.5vw;
+  height: 30vw;
+  border-radius: 10px;
+  background-color: #FDFDFD;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox:hover {
+  opacity: 0.8;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox .prize-name {
+  position: absolute;
+  top: 8.2%;
+  left: 8%;
+  font-weight: bold;
+  font-size: 2.2vw;
+  width: 21.8vw;
+  height: 5.3vw;
+  margin: 0px;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox .prize-name p {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox .count {
+  bottom: 7%;
+  left: 8%;
+  height: 33px;
+  position: absolute;
+  background-color: #fbbd28;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox .count p {
+  height: 22px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 6px 3px 0px 3px;
+  line-height: 29px;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .ticket-img {
+  width: 22.3vw;
+  height: 22.3vw;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .tshirt-img {
+  width: 22.6vw;
+  height: 22.6vw;
+}
+body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .burger-img {
+  width: 100%;
+  height: 100%;
+}
+body #prizes .prizesDown .prizeBoxsLeft {
+  justify-content: start;
+}
+body #prizes .prizesDown .prizeBoxsRight {
+  justify-content: end;
+}
+
+@media screen and (max-width: 1200px) {
+  body main #mcdPriceCarLottery {
+    margin-bottom: 3vw !important;
+  }
+  body main #tirajs {
+    padding: 0 80px;
+  }
+  body main #tirajs .tiraj .tirajDate {
+    border-top: 1px solid #f5f5f5;
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+  }
+  body main #tirajs .tiraj .tirajInfo {
+    border-top: none !important;
+    padding-left: 30px !important;
+  }
+  body main #questions {
+    transition: all 0.5s;
+    padding: 0 100px;
+  }
+  body main #prizes .prizesDown .prizeBoxs .prizeBox {
+    width: 28.5vw;
+    height: 29vw;
+  }
+  body main #prizes .prizesDown .prizeBoxs .prizeBox .prize-name {
+    font-size: 2.2vw;
+    width: 21.8vw;
+    height: 5.3vw;
+  }
+  body main #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .ticket-img {
+    width: 22.3vw;
+    height: 22.3vw;
+  }
+  body main #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .tshirt-img {
+    width: 22vw;
+    height: 20vw;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body header .headerNav nav .container-fluid .offcanvas {
+    position: fixed;
+    --bs-offcanvas-padding-y: none;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-header {
+    position: relative;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-header button {
+    position: absolute;
+    right: 19.5px;
+    top: 59.5px;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body {
+    padding: 164px 105px 0px 26px;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body ul .visible {
+    display: none;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body ul .unvisible {
+    display: inherit;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body ul .unvisible a {
+    margin: 0px;
+    line-height: 35.2px;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body ul li a {
+    font-size: 32px;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body ul li .backColor {
+    padding-top: 0px;
+    display: inline;
+    background: none;
+    width: 0px;
+    height: 0px;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body ul li:last-child {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body ul li:last-child a {
+    font-family: Speedy;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    width: 100%;
+  }
+  body footer .footerUp .row {
+    gap: 5px;
+  }
+  body footer .footerUp .row .footerNumber {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  body footer .footerUp .row .footerSocial {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  body footer .footerUp .row .footerSocial .footerLeft ul {
+    justify-content: space-between;
+  }
+  body footer .footerUp .row .footerApp {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  body footer .footerUp .row .footerApp p {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  body footer .copyRight {
+    margin-top: 40px;
+  }
+  body footer .copyRight ul {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  body #questions {
+    transition: all 0.5s;
+    padding: 0 80px;
+  }
+  body #questions .pagesInfo .pageTitles .pageTitle1 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 47px !important;
+    width: 443px !important;
+  }
+  body #questions .pagesInfo .pageTitles .pageTitle1 h1 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0px;
+    font-size: 40px;
+  }
+  body #questions .pagesInfo .pageTitles .pageTitle2 {
+    width: 205px !important;
+    height: 47px !important;
+  }
+  body #questions .pagesInfo .pageTitles .pageTitle2 h1 {
+    font-size: 40px;
+  }
+  body #questions .questionRow .questionBoxs .questionBox {
+    padding: 29px 0px;
+  }
+  body #questions .questionRow .questionBoxs .answerRow .answerBox {
+    width: 728px !important;
+    padding: 0px 50px !important;
+  }
+  body #tirajs {
+    padding: 0 100px;
+  }
+  body #tirajs .tiraj .tirajDate {
+    padding-left: 0 !important;
+  }
+  body #tirajs .tiraj .tirajInfo {
+    border-top: none !important;
+    padding-left: 25px !important;
+  }
+  body #winner {
+    padding: 0 40px;
+  }
+  body #winner .pagesInfo .pageTitle {
+    width: 240px;
+    height: 48px;
+  }
+  body #winner .pagesInfo .pageTitle h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+  }
+  body #winner .winnerBox .tablesHeader {
+    margin-top: 32px;
+  }
+  body #winner .winnerBox .tablesHeader p {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  body #winner .winnerBox .tablesHeader .tableContent {
+    justify-content: center;
+    --bs-gutter-x: 0px;
+  }
+  body #winner .winnerBox .tablesHeader .tableContent .headerFirst {
+    margin-left: 0px;
+    padding-left: 15px;
+  }
+  body #winner .winnerBox .tablesHeader .tableContent .headerSecond {
+    padding-left: 33px;
+    margin-left: 0px;
+  }
+  body #winner .winnerBox .tablesHeader .tableContent .headerThird {
+    display: none;
+  }
+  body #winner .winnerBox .winnerTable .table tbody .tableNumber {
+    display: none;
+  }
+  body #winner .winnerBox .winnerTable .table tbody tr {
+    height: 56px !important;
+  }
+  body #mcdPriceCarLottery {
+    margin-bottom: 30px !important;
+  }
+  body #prizes .prizesDown {
+    display: flex;
+    justify-content: center;
+  }
+  body #prizes .prizesDown .prizeBoxs {
+    margin-top: 10px;
+    position: static;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox {
+    width: 400px !important;
+    height: 300px !important;
+    position: relative;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prize-name {
+    position: absolute;
+    top: 8.2%;
+    left: 7%;
+    font-size: 25px !important;
+    width: 250px !important;
+    height: 60px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage {
+    padding-left: 50px;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .ticket-img {
+    width: 250px !important;
+    height: 250px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .tshirt-img {
+    width: 230px !important;
+    height: 230px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .burger-img {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  body #prizes .prizesDown .prizeBoxsLeft {
+    justify-content: center !important;
+  }
+  body #prizes .prizesDown .prizeBoxsRight {
+    justify-content: center !important;
+  }
+  body #lotteryForm .form-content {
+    justify-content: center;
+  }
+  body #lotteryForm .form-content form .formRow {
+    display: flex;
+    justify-content: center;
+  }
+  body #lotteryForm .form-content form .formRow .paddings {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body #lotteryForm .form-content form .formRow .form-control,
+body #lotteryForm .form-content form .formRow select {
+    height: 48px;
+  }
+  body #lotteryForm .form-content form .formRow .formNameSurname {
+    margin-bottom: 20px !important;
+  }
+  body #lotteryForm .form-content form .formRow .formNumberEmail {
+    margin-bottom: 20px !important;
+    gap: 20px;
+  }
+  body #lotteryForm .form-content form .formRow .formNumberEmail .formNumber .numberSelect {
+    --bs-gutter-x: 0.5rem;
+  }
+  body #lotteryForm .form-content form .formRow .formNumberEmail .formNumber .numberSelect select {
+    padding-right: 5px;
+  }
+  body #lotteryForm .form-content form .formRow .formLocationBirthday {
+    margin-bottom: 20px !important;
+    gap: 13px;
+  }
+  body #lotteryForm .form-content form .formRow .formLocationBirthday .formBirthday .birthdaySelect {
+    --bs-gutter-x: 0.8rem;
+  }
+  body #lotteryForm .form-content form .formRow .formLocationBirthday .formBirthday .birthdaySelect select {
+    padding-right: 5px;
+  }
+  body #lotteryForm .form-content form .formRow .formGenderSeriaNumber {
+    margin-bottom: 20px !important;
+    gap: 20px;
+  }
+  body #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios {
+    display: flex;
+    gap: 10px;
+  }
+  body #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios .form-check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 162px;
+    height: 48px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+  }
+  body #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios .form-check input {
+    background: #d9d9d9;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    margin-left: -16px;
+  }
+  body #lotteryForm .form-content form .formRow .formGenderSeriaNumber .formGender .formGenderRadios .form-check-input:checked {
+    background-color: #ffb635;
+    border-color: #ffb635;
+  }
+  body #lotteryForm .form-content form .formRowDown {
+    justify-content: center;
+  }
+  body #lotteryForm .form-content form .formRowDown .paddingsDown {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body #lotteryForm .form-content form .formRowDown .formCuponNumber {
+    margin-bottom: 20px !important;
+  }
+  body #lotteryForm .form-content form .formRowDown .formCuponNumber input {
+    height: 48px;
+  }
+  body #lotteryForm .form-content form .formRowDown .checkCondition {
+    margin-bottom: 10px !important;
+  }
+  body #lotteryForm .form-content form .formRowDown .checkCondition input {
+    width: 20px;
+    height: 20px;
+  }
+  body #lotteryForm .form-content form .formRowDown .checkCondition label {
+    font-size: 13px;
+    color: #bababa;
+    line-height: 17.55px;
+  }
+  body #lotteryForm .form-content form .formRowDown .checkCondition label a {
+    font-weight: bold;
+  }
+  body #lotteryForm .form-content form .formRowDown .checkAge input {
+    width: 20px;
+    height: 20px;
+  }
+  body #lotteryForm .form-content form .formRowDown .checkAge label {
+    font-size: 13px;
+    color: #bababa;
+    line-height: 17.55px;
+  }
+  body #lotteryForm .form-content form .formRowDown .checkAge label a {
+    font-weight: bold;
+  }
+  body #lotteryForm .form-content form .formRowDown .buttonSubmit button {
+    width: 100%;
+    background-color: #ffb635;
+    border: none;
+    color: #111111;
+    height: 48px;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body header {
+    padding: 0px 20px;
+  }
+  body header .headerNav nav .container-fluid .offcanvas {
+    --bs-offcanvas-width: 292px;
+  }
+  body header .headerNav nav .container-fluid .offcanvas .offcanvas-body {
+    padding-right: 30px;
+  }
+  body main {
+    padding: 0px 20px;
+  }
+  body main #mcdPriceCarLottery {
+    margin-bottom: 20px !important;
+  }
+  body main #mcdPriceCarLottery .carLotteryImage .carLotteryImage-text {
+    width: 225px;
+    position: static;
+    padding-bottom: 24px;
+  }
+  body main #mcdPriceCarLottery .carLotteryImage .carLotteryImage-text .carLotteryImage-textUp {
+    height: 40px;
+  }
+  body main #mcdPriceCarLottery .carLotteryImage .carLotteryImage-text .carLotteryImage-textUp p {
+    font-size: 40px;
+  }
+  body main #tirajs {
+    padding: 0px;
+  }
+  body main #tirajs .pagesInfo .pageInfo a p, body main #tirajs .pagesInfo .pageInfo a span {
+    text-transform: uppercase !important;
+  }
+  body main #tirajs .pagesInfo .pageTitle {
+    width: 190px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+  }
+  body main #tirajs .pagesInfo .pageTitle h1 {
+    font-size: 40px !important;
+    line-height: 50px;
+  }
+  body main #tirajs .tiraj {
+    --bs-gutter-x: 0;
+  }
+  body main #tirajs .tiraj .tirajInfoUp {
+    padding-bottom: 0px !important;
+  }
+  body main #tirajs .tiraj .tirajDate {
+    padding-bottom: 0px !important;
+    border-top: 1px solid #f5f5f5;
+    padding-left: 0 !important;
+    padding-right: 22px !important;
+  }
+  body main #tirajs .tiraj .tirajInfo {
+    padding-bottom: 32px !important;
+    border-top: none !important;
+    padding-left: 25px !important;
+  }
+  body main #tirajs .tiraj .tirajInfo P {
+    font-size: 15px !important;
+  }
+  body main #tirajs .tiraj .tirajLast {
+    padding-bottom: 60px !important;
+  }
+  body main #questions {
+    transition: all 0.5s;
+    padding: 0 10px;
+    padding: 0px;
+  }
+  body main #questions .pagesInfo {
+    margin-bottom: 46px !important;
+  }
+  body main #questions .pagesInfo .pageInfo a, body main #questions .pagesInfo .pageInfo span {
+    font-size: 13px;
+  }
+  body main #questions .pagesInfo .pageInfo a {
+    text-transform: uppercase;
+  }
+  body main #questions .pagesInfo .pageTitles .pageTitle1 {
+    height: 47px !important;
+    width: 331px !important;
+  }
+  body main #questions .pagesInfo .pageTitles .pageTitle1 h1 {
+    font-size: 40px;
+  }
+  body main #questions .pagesInfo .pageTitles .pageTitle2 {
+    width: 181px !important;
+    height: 40px !important;
+  }
+  body main #questions .pagesInfo .pageTitles .pageTitle2 h1 {
+    font-size: 40px;
+  }
+  body main #questions .questionRow .questionBoxs .questionBox {
+    padding: 18px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #questions .questionRow .questionBoxs .questionBox .answerBoxNumber {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  body main #questions .questionRow .questionBoxs .questionBox .answerBoxNumber p {
+    font-size: 15px !important;
+  }
+  body main #questions .questionRow .questionBoxs .questionBox .answerBoxTitle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  body main #questions .questionRow .questionBoxs .questionBox .answerBoxTitle p {
+    font-size: 15px !important;
+  }
+  body main #questions .questionRow .questionBoxs .questionBox .answerBoxButton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  body main #questions .questionRow .questionBoxs .questionBox .answerBoxButton button {
+    background: #FDEED4;
+    opacity: 0.2;
+    transform: rotate(90deg);
+    border-radius: 50%;
+  }
+  body main #questions .questionRow .questionBoxs .questionBox .answerBoxButton button i {
+    font-weight: 700;
+    color: #FFB635;
+  }
+  body main #questions .questionRow .questionBoxs .answerRow {
+    --bs-gutter-x: 0;
+  }
+  body main #questions .questionRow .questionBoxs .answerRow .answerBox {
+    width: 728px !important;
+    padding: 0px 40px !important;
+  }
+  body main #questions .questionRow .questionBoxs .answerRow .answerBox .card {
+    border: none;
+    background-color: FCFCFC;
+    padding: 0px;
+  }
+  body main #questions .questionRow .questionBoxs .answerRow .answerBox .card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7F7F7F;
+  }
+  body main #winner {
+    padding: 0px;
+  }
+  body main #winner .pagesInfo .pageInfo a p, body main #winner .pagesInfo .pageInfo a span {
+    text-transform: uppercase !important;
+  }
+  body main #winner .pagesInfo .pageTitle {
+    width: 200px;
+    height: 42px;
+  }
+  body main #winner .pagesInfo .pageTitle h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  body main #winner .winnerBox {
+    margin-top: 88px;
+  }
+  body main #winner .winnerBox .tablesHeader p {
+    font-size: 15px;
+  }
+  body main #winner .winnerBox .tablesHeader .tableContent .headerFirst {
+    padding-left: 15px;
+    width: 47%;
+  }
+  body main #winner .winnerBox .tablesHeader .tableContent .headerSecond {
+    padding-left: 33px;
+    margin-left: 0px;
+    width: 47%;
+  }
+  body main #winner .winnerBox .tablesHeader .tableContent .headerThird {
+    display: none;
+  }
+  body main #winner .winnerBox .winnerTable td {
+    font-size: 15px;
+  }
+  body main #prizes {
+    padding: 40px 0px 24px 0px;
+  }
+  body main #prizes .prizeImageCar .prizeImageCarComp {
+    display: none;
+    transition: all 0.5s;
+  }
+  body main #prizes .prizeImageCar .prizeImageCarTel {
+    transition: all 0.5s;
+    display: block;
+  }
+  body main #prizes .prizeImageCar .prize-name {
+    font-size: 5vw !important;
+    width: 270px;
+    left: 4.3%;
+  }
+  body main #prizes .prizeImageCar .count {
+    left: 4.4%;
+    width: 65px;
+    height: 28px;
+  }
+  body main #prizes .prizeImageCar .count p {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  body main #prizes .prizesDown .prizeBoxs .prizeBox {
+    width: 100% !important;
+    height: 250px;
+  }
+  body main #prizes .prizesDown .prizeBoxs .prizeBox .prize-name {
+    left: 4%;
+  }
+  body main #prizes .prizesDown .prizeBoxs .prizeBox .count {
+    bottom: 7%;
+    left: 4%;
+  }
+  body main #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .burger-img {
+    width: 280px !important;
+    height: 280px !important;
+  }
+  body main #lotteryForm .form-content {
+    justify-content: center;
+  }
+  body main #lotteryForm .form-content form .formValidation {
+    --bs-gutter-x: 0px;
+  }
+  body main #lotteryForm .form-content form .formValidation .paddings .checkDateSum {
+    gap: 24px;
+  }
+  body main #lotteryForm .form-content form .formValidation .paddings .checkDateSum .checkDate .checkDateSelect {
+    --bs-gutter-x: 0.5rem;
+  }
+  body main #lotteryForm .form-content form .formValidation .paddings .checkDateSum .checkDate .checkDateSelect select {
+    font-size: 15px;
+  }
+  body main #lotteryForm .form-content form .formValidation .form-control,
+body main #lotteryForm .form-content form .formValidation select {
+    height: 48px;
+  }
+  body main #lotteryForm .form-content form .formRow {
+    --bs-gutter-x: 0;
+  }
+  body main #lotteryForm .form-content form .formRowDown {
+    --bs-gutter-x: 0;
+  }
+  body main #lotteryForm .form-content form .formEnd {
+    --bs-gutter-x: 0;
+    margin-top: 30px;
+  }
+  body footer {
+    padding: 0px 20px;
+  }
+  body footer .footerUp .row {
+    flex-direction: column;
+  }
+  body footer .footerUp .row .footerNumber {
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: flex-start !important;
+  }
+  body footer .footerUp .row .footerSocial {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+  body footer .footerUp .row .footerSocial .footerLeft ul {
+    justify-content: space-between;
+  }
+  body footer .footerUp .row .footerApp {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+  body footer .footerUp .row .footerApp p {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+  body footer .footerUp .row .footerApp ul li a img {
+    width: 156.49px;
+    height: 43.99px;
+  }
+  body footer .copyRight {
+    margin-top: 40px;
+  }
+  body footer .copyRight ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+  }
+  body footer .copyRight ul li p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 552px) {
+  body #mcdPriceCarLottery {
+    margin-bottom: 1px !important;
+  }
+  body #mcdPriceCarLottery .carLotteryImage img {
+    height: 200px;
+  }
+  body #prizes .prizeTitle h1 {
+    font-size: 32px !important;
+  }
+  body #prizes .prizeImageCar .prize-name {
+    left: 4.6% !important;
+  }
+  body #prizes .prizeImageCar .count {
+    left: 4.6% !important;
+    width: 51px !important;
+    height: 20px !important;
+  }
+  body #prizes .prizeImageCar .count p {
+    font-size: 16px !important;
+    line-height: 14px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox {
+    height: 200px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prize-name {
+    left: 4.6% !important;
+    font-size: 18px !important;
+    width: 230px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prize-name p {
+    display: none;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .count {
+    left: 4.6% !important;
+    width: 17.5vw !important;
+    height: 20px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .count p {
+    font-size: 4vw !important;
+    line-height: 14px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .c-second {
+    width: 20vw !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .c-third {
+    width: 22.1vw !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage {
+    padding-left: 60px;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .ticket-img {
+    width: 189px !important;
+    height: 187px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .tshirt-img {
+    width: 196px !important;
+    height: 195px !important;
+  }
+  body #prizes .prizesDown .prizeBoxs .prizeBox .prizeImage .burger-img {
+    width: 262px !important;
+    height: 262px !important;
+  }
+  body #lotteryForm .form-title h1 {
+    font-size: 32px !important;
+    line-height: 37.8px;
+  }
+  body #lotteryForm .form-content form .formRow .formNameSurname {
+    --bs-gutter-x: 9px;
+  }
+  body #winner {
+    padding: 0px;
+  }
+  body #winner .pagesInfo .pageTitle {
+    width: 200px;
+    height: 42px;
+  }
+  body #winner .pagesInfo .pageTitle h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  body #winner .winnerBox {
+    margin-top: 88px;
+  }
+  body #winner .winnerBox .tablesHeader .tableContent .headerFirst {
+    padding-left: 2px !important;
+    width: 47%;
+  }
+  body #winner .winnerBox .tablesHeader .tableContent .headerSecond {
+    padding-left: 21px !important;
+    width: 47%;
+  }
+}
+@media screen and (max-width: 365px) {
+  body main #questions .pagesInfo .pageTitles .pageTitle1 {
+    height: 47px !important;
+    width: 313px !important;
+  }
+  body main #questions .pagesInfo .pageTitles .pageTitle1 h1 {
+    font-size: 35px;
+  }
+  body main #questions .pagesInfo .pageTitles .pageTitle2 {
+    width: 205px !important;
+    height: 47px !important;
+  }
+  body main #questions .pagesInfo .pageTitles .pageTitle2 h1 {
+    font-size: 35px;
+  }
+}
+#tirajs {
+  padding: 0 112px;
+  margin-top: 70px;
+}
+#tirajs .pagesInfo {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+#tirajs .pagesInfo .pageInfo {
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+  align-items: center;
+}
+#tirajs .pagesInfo .pageInfo a p {
+  font-family: Speede;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #5e5e5e;
+}
+#tirajs .pagesInfo .pageInfo a p::after {
+  padding: 0px 6px;
+  content: "/";
+}
+#tirajs .pagesInfo .pageInfo a span {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  color: #121212;
+  font-size: 14px;
+}
+#tirajs .pagesInfo .pageTitle {
+  margin-top: 12px;
+  width: 325px;
+  height: 63px;
+  background: #fbbd28;
+}
+#tirajs .pagesInfo .pageTitle h1 {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #111111;
+}
+#tirajs .tiraj {
+  margin-top: 90px;
+  padding-left: 0px;
+}
+#tirajs .tiraj .tirajInfoUp {
+  padding-bottom: 36px;
+}
+#tirajs .tiraj .tirajInfoUp p {
+  font-family: Speede;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 36px;
+}
+#tirajs .tiraj .tirajDate {
+  padding-bottom: 36px;
+  border-top: 1px solid #f5f5f5;
+  padding-top: 15px;
+  padding-right: 126px;
+}
+#tirajs .tiraj .tirajDate h3 {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+}
+#tirajs .tiraj .tirajDate p {
+  font-family: Speede;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #323232;
+}
+#tirajs .tiraj .tirajInfo {
+  padding-bottom: 36px;
+  padding-top: 15px;
+  border-top: 1px solid #f5f5f5;
+}
+#tirajs .tiraj .tirajInfo ul li {
+  list-style: outside;
+  color: #7f7f7f;
+}
+#tirajs .tiraj .tirajInfo ul li p {
+  font-family: Speede;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7f7f7f;
+}
+
+#questions {
+  padding: 0 112px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+#questions .pagesInfo {
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 96px;
+}
+#questions .pagesInfo .pageInfo {
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+  align-items: center;
+}
+#questions .pagesInfo .pageInfo a p {
+  font-family: Speede;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #5e5e5e;
+}
+#questions .pagesInfo .pageInfo a p::after {
+  padding: 0px 6px;
+  content: "/";
+}
+#questions .pagesInfo .pageInfo a span {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  color: #121212;
+  font-size: 14px;
+}
+#questions .pagesInfo .pageTitles {
+  width: 543px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+#questions .pagesInfo .pageTitles .pageTitle1 {
+  text-align: center;
+  margin-top: 12px;
+  height: 63px;
+  background: #fbbd28;
+  width: 543px;
+}
+#questions .pagesInfo .pageTitles .pageTitle1 h1 {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #111111;
+}
+#questions .pagesInfo .pageTitles .pageTitle2 {
+  text-align: center;
+  width: 295px;
+  margin-top: 12px;
+  height: 63px;
+  background: #fbbd28;
+}
+#questions .pagesInfo .pageTitles .pageTitle2 h1 {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #111111;
+}
+#questions .questionRow {
+  margin-right: unset;
+  margin-left: unset;
+  gap: 16px;
+}
+#questions .questionRow .questionBoxs .questionBox {
+  padding: 29px 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#questions .questionRow .questionBoxs .questionBox .answerBoxNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#questions .questionRow .questionBoxs .questionBox .answerBoxNumber p {
+  font-family: Speede;
+  font-size: 24px;
+}
+#questions .questionRow .questionBoxs .questionBox .answerBoxTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#questions .questionRow .questionBoxs .questionBox .answerBoxTitle p {
+  font-family: Speede;
+  font-size: 24px;
+}
+#questions .questionRow .questionBoxs .questionBox .answerBoxButton {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#questions .questionRow .questionBoxs .questionBox .answerBoxButton button {
+  background: #fdeed4;
+  opacity: 0.2;
+  transform: rotate(90deg);
+  border-radius: 50%;
+}
+#questions .questionRow .questionBoxs .questionBox .answerBoxButton button i {
+  font-weight: 700;
+  color: #ffb635;
+}
+#questions .questionRow .questionBoxs .answerRow {
+  background-color: #fcfcfc;
+}
+#questions .questionRow .questionBoxs .answerRow .answerBox {
+  width: 728px !important;
+  padding: 0px;
+}
+#questions .questionRow .questionBoxs .answerRow .answerBox .card {
+  border: none;
+  background-color: #fcfcfc;
+  padding: 0px;
+}
+#questions .questionRow .questionBoxs .answerRow .answerBox .card p {
+  font-family: Speede;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7f7f7f;
+}
+
+#winner {
+  padding: 0 112px;
+  margin-top: 70px;
+}
+#winner .pagesInfo {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+#winner .pagesInfo .pageInfo {
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+  align-items: center;
+}
+#winner .pagesInfo .pageInfo a p {
+  font-family: Speede;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #5e5e5e;
+}
+#winner .pagesInfo .pageInfo a p::after {
+  padding: 0px 6px;
+  content: "/";
+}
+#winner .pagesInfo .pageInfo a span {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  color: #121212;
+  font-size: 14px;
+}
+#winner .pagesInfo .pageTitle {
+  margin-top: 12px;
+  width: 325px;
+  height: 63px;
+  background: #fbbd28;
+}
+#winner .pagesInfo .pageTitle h1 {
+  font-family: SpeedeBd;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #111111;
+}
+#winner .winnerBox {
+  margin-top: 95px;
+  display: flex;
+  justify-content: center;
+}
+#winner .winnerBox .searchWinner form {
+  display: flex;
+  justify-content: center;
+}
+#winner .winnerBox .searchWinner form .searchCode {
+  height: 50px;
+}
+#winner .winnerBox .searchWinner form .searchCode input {
+  font-family: Speede;
+  border: 1px solid #dddfe2;
+  border-right: none;
+  border-radius: 6px;
+  border-start-end-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 48px;
+}
+#winner .winnerBox .searchWinner form .searchCode input::-moz-placeholder {
+  color: #bababa;
+}
+#winner .winnerBox .searchWinner form .searchCode input:-ms-input-placeholder {
+  color: #bababa;
+}
+#winner .winnerBox .searchWinner form .searchCode input::placeholder {
+  color: #bababa;
+}
+#winner .winnerBox .searchWinner form .searchCode input:focus {
+  border-color: none;
+  box-shadow: none;
+}
+#winner .winnerBox .searchWinner form .searchCode button {
+  border: 1px solid #dddfe2;
+  border-left: none;
+}
+#winner .winnerBox .searchWinner form .searchNumber {
+  height: 50px;
+}
+#winner .winnerBox .searchWinner form .searchNumber select {
+  color: #bababa;
+  height: 48px;
+}
+#winner .winnerBox .searchWinner form .searchNumber select option {
+  font-family: Speede;
+}
+#winner .winnerBox .searchWinner form .searchNumber select:focus {
+  border-color: none;
+  box-shadow: none;
+}
+#winner .winnerBox .tablesHeader {
+  margin-top: 32px;
+}
+#winner .winnerBox .tablesHeader p {
+  font-family: SpeedeBd;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#winner .winnerBox .tablesHeader .tableContent {
+  justify-content: start;
+  --bs-gutter-x: 0px;
+}
+#winner .winnerBox .tablesHeader .tableContent .headerFirst {
+  margin-left: 25px;
+}
+#winner .winnerBox .tablesHeader .tableContent .headerSecond {
+  padding-left: 3px;
+  margin-left: 7.8vw;
+}
+#winner .winnerBox .tablesHeader .tableContent .headerThird {
+  margin-left: 4.4vw;
+}
+#winner .winnerBox .winnerTable {
+  max-height: 340px !important;
+  margin-top: 16px;
+  background: #ffffff;
+  border: 1px solid #dddfe2;
+  border-radius: 10px;
+  width: 98%;
+}
+#winner .winnerBox .winnerTable .table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+#winner .winnerBox .winnerTable .table tbody {
+  overflow-y: scroll;
+  max-height: 340px;
+  position: relative;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+#winner .winnerBox .winnerTable .table tbody tr {
+  height: 68px !important;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+#winner .winnerBox .winnerTable .table tbody tr th,
+#winner .winnerBox .winnerTable .table tbody tr td {
+  padding: 0.5em;
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+}
+#winner .winnerBox .winnerTable .table tbody tr .tableCount {
+  width: 14.5% !important;
+}
+#winner .winnerBox .winnerTable .table tbody td {
+  font-family: Speede;
+  border-color: none;
+}
+#winner .winnerBox .winnerTable .table tbody .tableNumber {
+  display: block;
+}
+#winner .winnerBox .winnerTable .table tbody::-webkit-scrollbar {
+  width: 7px;
+  height: 292px !important;
+}
+#winner .winnerBox .winnerTable .table tbody::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+  height: 292px;
+}
+#winner .winnerBox .winnerTable .table tbody::-webkit-scrollbar-thumb {
+  background-color: #b4b4b4;
+  border-radius: 10px;
+  color: red;
+  height: 292px;
+}
+#winner .winnerBox .table > :not(caption) > * > * {
+  border-bottom-width: 0px;
+}
+#winner .winnerBox .table thead,
+#winner .winnerBox tfoot,
+#winner .winnerBox tbody,
+#winner .winnerBox th,
+#winner .winnerBox td {
+  display: block;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+body {
+  p {
+    margin: 0px;
+  }
+  a {
+    color: #111111;
+    text-decoration: none;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  li {
+    list-style: none;
+  }
+  header {
+    padding: 0px 60px;
+  }
+  main {
+    padding: 0px 60px;
+    margin: 32.02px 0px 60px 0px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  p,
+  span,
+  li {
+    font-family: Speede;
+    color: #111111;
+  }
+}
+@font-face {
+  font-family: Speede;
+  src: url(../fonts/Speedee_Rg_az.ttf);
+}
+@font-face {
+  font-family: SpeedeBdlt;
+  src: url(../fonts/Speedee_BdIt_az.ttf);
+}
+@font-face {
+  font-family: SpeedeLt;
+  src: url(../fonts/Speedee_Lt_az.ttf);
+}
+@font-face {
+  font-family: SpeedeBd;
+  src: url(../fonts/Speedee_Bd_az.ttf);
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}

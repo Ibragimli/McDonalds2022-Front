@@ -1,0 +1,141 @@
+#questions {
+  padding: 0 112px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  .pagesInfo {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 96px;
+    .pageInfo {
+      display: flex;
+      margin-left: 0px;
+      padding-left: 0px;
+      align-items: center;
+      a {
+        p {
+          font-family: Speede;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 150%;
+          color: #5e5e5e;
+        }
+        p::after {
+          padding: 0px 6px;
+          content: "/";
+        }
+        span {
+          font-family: SpeedeBd;
+          font-weight: 700;
+          color: #121212;
+          font-size: 14px;
+        }
+      }
+    }
+    .pageTitles {
+      width: 543px;
+      //width: 60.5%;
+      padding-left: 0px;
+      margin-left: 0px;
+
+      .pageTitle1 {
+        text-align: center;
+        margin-top: 12px;
+        height: 63px;
+        background: #fbbd28;
+        width: 543px;
+
+        h1 {
+          font-family: SpeedeBd;
+          font-weight: 700;
+          font-size: 64px;
+          text-transform: uppercase;
+          color: #111111;
+        }
+      }
+      .pageTitle2 {
+        text-align: center;
+        width: 295px;
+        margin-top: 12px;
+        height: 63px;
+        background: #fbbd28;
+
+        h1 {
+          font-family: SpeedeBd;
+          font-weight: 700;
+          font-size: 64px;
+          text-transform: uppercase;
+          color: #111111;
+        }
+      }
+    }
+  }
+
+  .questionRow {
+    margin-right: unset;
+    margin-left: unset;
+    gap: 16px;
+    .questionBoxs {
+      .questionBox {
+        padding: 29px 0px;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: #fcfcfc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .answerBoxNumber {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          p {
+            font-family: Speede;
+            font-size: 24px;
+          }
+        }
+        .answerBoxTitle {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          p {
+            font-family: Speede;
+            font-size: 24px;
+          }
+        }
+        .answerBoxButton {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          button {
+            background: #fdeed4;
+            opacity: 0.2;
+            transform: rotate(90deg);
+            border-radius: 50%;
+            i {
+              font-weight: 700;
+              color: #ffb635;
+            }
+          }
+        }
+      }
+      .answerRow {
+        background-color: #fcfcfc;
+        .answerBox {
+          width: 728px !important;
+          padding: 0px;
+          .card {
+            border: none;
+            background-color: #fcfcfc;
+            padding: 0px;
+            p {
+              font-family: Speede;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 150%;
+              color: #7f7f7f;
+            }
+          }
+        }
+      }
+    }
+  }
+}

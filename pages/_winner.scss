@@ -1,0 +1,193 @@
+#winner {
+  padding: 0 112px;
+  margin-top: 70px;
+  .pagesInfo {
+    margin-left: 0px;
+    padding-left: 0px;;
+    .pageInfo {
+      display: flex;
+      margin-left: 0px;
+      padding-left: 0px;
+      align-items: center;
+      a {
+        p {
+          font-family: Speede;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 150%;
+          color: #5e5e5e;
+        }
+        p::after {
+          padding: 0px 6px;
+          content: "/";
+        }
+        span {
+          font-family: SpeedeBd;
+          font-weight: 700;
+          color: #121212;
+          font-size: 14px;
+        }
+      }
+    }
+    .pageTitle {
+      margin-top: 12px;
+      width: 325px;
+      height: 63px;
+      background: #fbbd28;
+
+      h1 {
+        font-family: SpeedeBd;
+        font-weight: 700;
+        font-size: 64px;
+        text-transform: uppercase;
+        color: #111111;
+      }
+    }
+  }
+
+  .winnerBox {
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    .searchWinner {
+      form {
+        display: flex;
+        justify-content: center;
+        .searchCode {
+          height: 50px;
+          input {
+            font-family: Speede;
+            border: 1px solid #dddfe2;
+            border-right: none;
+            border-radius: 6px;
+            border-start-end-radius: 0px;
+            border-bottom-right-radius: 0px;
+            height: 48px;
+          }
+          input::placeholder {
+            color: #bababa;
+          }
+          input:focus {
+            border-color: none;
+            box-shadow: none;
+          }
+          button {
+            border: 1px solid #dddfe2;
+            border-left: none;
+          }
+        }
+        .searchNumber {
+          height: 50px;
+          select {
+            color: #bababa;
+            height: 48px;
+            option {
+              font-family: Speede;
+            }
+          }
+          select:focus {
+            border-color: none;
+            box-shadow: none;
+          }
+        }
+      }
+    }
+    .tablesHeader {
+    
+      margin-top: 32px;
+      p {
+        font-family: SpeedeBd;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .tableContent {
+        justify-content: start;
+        --bs-gutter-x: 0px;
+        .headerFirst {
+         margin-left: 25px;
+        }
+        .headerSecond {
+          padding-left: 3px;
+          margin-left: 7.8vw;
+        }
+        .headerThird {
+          margin-left: 4.4vw;
+        }
+      }
+      
+    }
+    .winnerTable {
+      max-height: 340px !important;
+      margin-top: 16px;
+      background: #ffffff;
+      border: 1px solid #dddfe2;
+      border-radius: 10px;
+      width: 98%;
+
+      .table {
+        border-collapse: collapse;
+        table-layout: fixed;
+        tbody {
+          overflow-y: scroll;
+          max-height: 340px;
+          position: relative;
+          -ms-overflow-style: -ms-autohiding-scrollbar;
+          tr {
+            height: 68px !important;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #f1f1f1;
+            th,
+            td {
+              padding: 0.5em;
+              text-align: left;
+              vertical-align: top;
+              font-weight: normal;
+            }
+            .tableCount {
+              width: 14.5% !important;
+            }
+          }
+          td {
+            font-family: Speede;
+            border-color: none;
+          }
+          .tableNumber {
+            display: block;
+          }
+        }
+      
+        tbody::-webkit-scrollbar {
+          width: 7px;
+          height: 292px !important ;
+
+        }
+
+        tbody::-webkit-scrollbar-track {
+          background: #f1f1f1;
+          border-radius: 10px;
+          height: 292px;
+        }
+
+        tbody::-webkit-scrollbar-thumb {
+          background-color: #b4b4b4;
+          border-radius: 10px;
+          color: red;
+          height: 292px;
+        }
+      }
+    }
+    .table > :not(caption) > * > * {
+      border-bottom-width: 0px;
+    }
+
+    .table thead,
+    tfoot,
+    tbody,
+    th,
+    td {
+      display: block;
+      width: 100%;
+    }
+  }
+}
